@@ -19,6 +19,7 @@
  */
 
 @theme inline {
+  --font-serif: "Cinzel", Georgia, serif;
   --radius-sm: calc(var(--radius) - 4px);
   --radius-md: calc(var(--radius) - 2px);
   --radius-lg: var(--radius);
@@ -59,6 +60,85 @@
   --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
   --color-sidebar-border: var(--sidebar-border);
   --color-sidebar-ring: var(--sidebar-ring);
+  --color-about-canvas: var(--about-canvas);
+  --color-about-navy: var(--about-navy);
+  --color-about-on-navy: var(--about-on-navy);
+  --color-about-muted: var(--about-muted);
+  --color-about-accent: var(--about-accent);
+  --color-about-button: var(--about-button);
+  --color-about-button-foreground: var(--about-button-foreground);
+  --color-about-arrow: var(--about-arrow);
+  --color-hero-sky: var(--hero-sky);
+  --color-why-yoga-section: var(--why-yoga-section);
+  --color-why-yoga-section-a: var(--why-yoga-section-a);
+  --color-why-yoga-section-b: var(--why-yoga-section-b);
+  --color-why-yoga-heading: var(--why-yoga-heading);
+  --color-why-yoga-body: var(--why-yoga-body);
+  --color-why-yoga-tagline: var(--why-yoga-tagline);
+  --color-why-yoga-accent: var(--why-yoga-accent);
+  --color-why-cta: var(--why-cta);
+  --color-why-cta-text: var(--why-cta-text);
+  --color-why-cta-hover: var(--why-cta-hover);
+  --color-courses-heading: var(--courses-heading);
+  --color-courses-body: var(--courses-body);
+  --color-courses-card: var(--courses-card);
+  --color-courses-accent: var(--courses-accent);
+  --color-courses-link: var(--courses-link);
+  --color-course-canvas: var(--course-canvas);
+  --color-course-ink: var(--course-ink);
+  --color-course-body: var(--course-body);
+  --color-course-muted: var(--course-muted);
+  --color-course-border: var(--course-border);
+  --color-course-surface: var(--course-surface);
+  --color-course-mist: var(--course-mist);
+  --color-course-sage: var(--course-sage);
+  --color-course-sun: var(--course-sun);
+  --color-course-placeholder: var(--course-placeholder);
+  --color-course-accent: var(--course-accent);
+  --color-course-cta: var(--course-cta);
+  --color-course-cta-hover: var(--course-cta-hover);
+  --color-course-cta-foreground: var(--course-cta-foreground);
+  --color-course-hero: var(--course-hero);
+  --color-course-hero-foreground: var(--course-hero-foreground);
+  --color-course-hero-muted: var(--course-hero-muted);
+  --color-course-hero-line: var(--course-hero-line);
+  --color-course-footer: var(--course-footer);
+  --color-course-footer-foreground: var(--course-footer-foreground);
+  --color-course-gallery: var(--course-gallery);
+  --color-course-gallery-panel: var(--course-gallery-panel);
+  --color-course-gallery-hover: var(--course-gallery-hover);
+  --color-course-gallery-line: var(--course-gallery-line);
+  --color-course-gallery-muted: var(--course-gallery-muted);
+  --color-course-gallery-active: var(--course-gallery-active);
+  --color-course-gallery-foreground: var(--course-gallery-foreground);
+  --color-wa-teal: var(--wa-teal);
+  --color-wa-teal-foreground: var(--wa-teal-foreground);
+  --color-wa-teal-muted: var(--wa-teal-muted);
+  --color-wa-mosaic: var(--wa-mosaic);
+  --color-wa-mosaic-foreground: var(--wa-mosaic-foreground);
+  --color-wa-mosaic-muted: var(--wa-mosaic-muted);
+  --color-wa-pastel: var(--wa-pastel);
+  --color-wa-pastel-foreground: var(--wa-pastel-foreground);
+  --color-wa-beige: var(--wa-beige);
+  --color-wa-beige-foreground: var(--wa-beige-foreground);
+  --color-wa-beige-muted: var(--wa-beige-muted);
+  --color-wa-brown: var(--wa-brown);
+  --color-wa-brown-foreground: var(--wa-brown-foreground);
+  --color-wa-brown-muted: var(--wa-brown-muted);
+  --color-wa-gold: var(--wa-gold);
+  --color-wa-silver: var(--wa-silver);
+  --color-wa-bronze: var(--wa-bronze);
+  --color-wa-ink: var(--wa-ink);
+  --color-wa-ink-foreground: var(--wa-ink-foreground);
+  --color-wa-ink-muted: var(--wa-ink-muted);
+  --color-wa-medal-dark: var(--wa-medal-dark);
+  --color-wa-medal-light: var(--wa-medal-light);
+  --color-wa-recognition-card: var(--wa-recognition-card);
+  --color-wa-recognition-border: var(--wa-recognition-border);
+  --color-wa-recognition-year: var(--wa-recognition-year);
+  --color-enroll-whatsapp: var(--enroll-whatsapp);
+  --color-enroll-whatsapp-foreground: var(--enroll-whatsapp-foreground);
+  --color-enroll-whatsapp-hover: var(--enroll-whatsapp-hover);
 }
 
 :root {
@@ -95,6 +175,88 @@
   --sidebar-accent-foreground: oklch(0.208 0.042 265.755);
   --sidebar-border: oklch(0.929 0.013 255.508);
   --sidebar-ring: oklch(0.704 0.04 256.788);
+  --about-canvas: oklch(0.975 0.008 93);
+  --about-navy: oklch(0.235 0.06 250);
+  --about-on-navy: oklch(0.99 0.003 95);
+  --about-muted: oklch(0.9 0.018 245);
+  --about-accent: oklch(0.78 0.11 151);
+  --about-button: oklch(0.99 0.003 95);
+  --about-button-foreground: oklch(0.235 0.06 250);
+  --about-arrow: oklch(0.62 0.105 222);
+  --hero-sky: oklch(0.7 0.13 240);
+  --why-yoga-section: oklch(from #A8D8C0 90% 0.035 h);
+  --why-yoga-section-a: oklch(from #A8D8C0 92% 0.045 h / 0.28);
+  --why-yoga-section-b: oklch(from #A8D8C0 86% 0.04 h / 0.20);
+  --why-yoga-heading: oklch(from #A8D8C0 25% 0.045 h);
+  --why-yoga-body: oklch(from #A8D8C0 42% 0.03 h);
+  --why-yoga-tagline: oklch(from #A8D8C0 55% 0.05 h);
+  --why-yoga-accent: oklch(from #A8D8C0 65% 0.075 h);
+  --why-cta: oklch(0.82 0.1 300);
+  --why-cta-text: oklch(0.25 0.065 250);
+  --why-cta-hover: oklch(0.77 0.11 300);
+  --courses-heading: oklch(0.235 0.06 250);
+  --courses-body: oklch(0.42 0.03 250);
+  --courses-card: oklch(1 0 0);
+  --courses-accent: oklch(0.52 0.12 150);
+  --courses-link: oklch(0.4 0.13 220);
+  --course-canvas: oklch(0.97 0.012 178);
+  --course-ink: oklch(0.25 0.055 205);
+  --course-body: oklch(0.43 0.038 205);
+  --course-muted: oklch(0.53 0.035 202);
+  --course-border: oklch(0.87 0.025 185);
+  --course-surface: oklch(0.995 0.004 175);
+  --course-mist: oklch(0.95 0.025 183);
+  --course-sage: oklch(0.94 0.035 156);
+  --course-sun: oklch(0.96 0.045 91);
+  --course-placeholder: oklch(0.925 0.026 183);
+  --course-accent: oklch(0.47 0.09 194);
+  --course-cta: oklch(0.38 0.095 196);
+  --course-cta-hover: oklch(0.32 0.09 196);
+  --course-cta-foreground: oklch(0.99 0.006 180);
+  --course-hero: oklch(0.27 0.072 198);
+  --course-hero-foreground: oklch(0.98 0.018 168);
+  --course-hero-muted: oklch(0.88 0.036 177);
+  --course-hero-line: oklch(0.86 0.04 177 / 0.45);
+  --course-footer: oklch(0.24 0.064 198);
+  --course-footer-foreground: oklch(0.97 0.018 170);
+  --course-gallery: oklch(0.17 0.04 202);
+  --course-gallery-panel: oklch(0.22 0.04 202);
+  --course-gallery-hover: oklch(0.29 0.05 198);
+  --course-gallery-line: oklch(0.78 0.045 180 / 0.3);
+  --course-gallery-muted: oklch(0.76 0.035 180);
+  --course-gallery-active: oklch(0.76 0.11 176);
+  --course-gallery-foreground: oklch(0.98 0.01 180);
+  --wa-teal: oklch(0.72 0.07 190);
+  --wa-teal-foreground: oklch(0.18 0.04 200);
+  --wa-teal-muted: oklch(0.32 0.035 200);
+  --wa-mosaic: oklch(0.62 0.09 195);
+  --wa-mosaic-foreground: oklch(0.99 0.005 190);
+  --wa-mosaic-muted: oklch(0.94 0.015 190);
+  --wa-pastel: oklch(0.94 0.075 95);
+  --wa-pastel-foreground: oklch(0.28 0.05 80);
+  --wa-beige: oklch(0.9 0.03 80);
+  --wa-beige-foreground: oklch(0.22 0.04 60);
+  --wa-beige-muted: oklch(0.5 0.04 70);
+  --wa-brown: oklch(0.68 0.09 55);
+  --wa-brown-foreground: oklch(0.99 0.005 55);
+  --wa-brown-muted: oklch(0.92 0.02 60);
+  --wa-gold: oklch(0.8 0.13 85);
+  --wa-silver: oklch(0.78 0.01 250);
+  --wa-bronze: oklch(0.66 0.1 55);
+  --wa-ink: oklch(0.12 0.008 250);
+  --wa-ink-foreground: oklch(0.99 0 0);
+  --wa-ink-muted: oklch(0.9 0.006 90);
+  --wa-medal-dark: oklch(0.17 0.025 65);
+  --wa-medal-light: oklch(0.98 0.01 70);
+  --wa-recognition-card: oklch(0.93 0.035 155);
+  --wa-recognition-border: oklch(0.77 0.06 155);
+  --wa-recognition-year: oklch(0.36 0.09 155);
+  --enroll-whatsapp: oklch(0.64 0.15 152);
+  --enroll-whatsapp-foreground: oklch(0.99 0.005 150);
+  --enroll-whatsapp-hover: oklch(0.58 0.15 152);
+  --why-cta: oklch(0.82 0.1 300);
+  --why-cta-text: oklch(0.25 0.065 250);
+  --why-cta-hover: oklch(0.77 0.11 300);
 }
 
 .dark {
@@ -130,6 +292,221 @@
   --sidebar-accent-foreground: oklch(0.984 0.003 247.858);
   --sidebar-border: oklch(1 0 0 / 10%);
   --sidebar-ring: oklch(0.551 0.027 264.364);
+  --about-canvas: oklch(0.17 0.025 250);
+  --about-navy: oklch(0.22 0.055 250);
+  --about-on-navy: oklch(0.99 0.003 95);
+  --about-muted: oklch(0.87 0.018 245);
+  --about-accent: oklch(0.78 0.11 151);
+  --about-button: oklch(0.99 0.003 95);
+  --about-button-foreground: oklch(0.22 0.055 250);
+  --about-arrow: oklch(0.68 0.105 222);
+  --hero-sky: oklch(0.7 0.13 240);
+  --why-yoga-section: oklch(from #A8D8C0 22% 0.03 h);
+  --why-yoga-section-a: oklch(from #A8D8C0 26% 0.035 h / 0.30);
+  --why-yoga-section-b: oklch(from #A8D8C0 18% 0.025 h / 0.22);
+  --why-yoga-heading: oklch(0.96 0.015 95);
+  --why-yoga-body: oklch(0.85 0.02 95);
+  --why-yoga-tagline: oklch(from #A8D8C0 75% 0.04 h);
+  --why-yoga-accent: oklch(from #A8D8C0 65% 0.075 h);
+  --why-cta: oklch(0.72 0.12 300);
+  --why-cta-text: oklch(0.2 0.07 250);
+  --why-cta-hover: oklch(0.67 0.13 300);
+  --courses-heading: oklch(0.96 0.015 95);
+  --courses-body: oklch(0.85 0.02 95);
+  --courses-card: oklch(0.22 0.04 250);
+  --courses-accent: oklch(0.78 0.11 151);
+  --courses-link: oklch(0.78 0.12 220);
+  --course-canvas: oklch(0.16 0.025 205);
+  --course-ink: oklch(0.96 0.018 175);
+  --course-body: oklch(0.82 0.024 180);
+  --course-muted: oklch(0.7 0.025 185);
+  --course-border: oklch(0.42 0.035 190);
+  --course-surface: oklch(0.22 0.032 200);
+  --course-mist: oklch(0.2 0.035 193);
+  --course-sage: oklch(0.21 0.038 165);
+  --course-sun: oklch(0.23 0.04 88);
+  --course-placeholder: oklch(0.25 0.03 190);
+  --course-accent: oklch(0.73 0.09 180);
+  --course-cta: oklch(0.66 0.1 183);
+  --course-cta-hover: oklch(0.72 0.1 183);
+  --course-cta-foreground: oklch(0.16 0.04 200);
+  --course-hero: oklch(0.15 0.04 202);
+  --course-hero-foreground: oklch(0.98 0.018 168);
+  --course-hero-muted: oklch(0.84 0.034 177);
+  --course-hero-line: oklch(0.78 0.04 177 / 0.38);
+  --course-footer: oklch(0.12 0.033 203);
+  --course-footer-foreground: oklch(0.97 0.018 170);
+  --course-gallery: oklch(0.1 0.026 202);
+  --course-gallery-panel: oklch(0.17 0.032 202);
+  --course-gallery-hover: oklch(0.24 0.042 198);
+  --course-gallery-line: oklch(0.75 0.04 180 / 0.28);
+  --course-gallery-muted: oklch(0.72 0.03 180);
+  --course-gallery-active: oklch(0.76 0.11 176);
+  --course-gallery-foreground: oklch(0.98 0.01 180);
+  --wa-teal: oklch(0.44 0.06 190);
+  --wa-teal-foreground: oklch(0.97 0.01 190);
+  --wa-teal-muted: oklch(0.88 0.015 190);
+  --wa-mosaic: oklch(0.38 0.07 195);
+  --wa-mosaic-foreground: oklch(0.98 0.005 190);
+  --wa-mosaic-muted: oklch(0.9 0.015 190);
+  --wa-pastel: oklch(0.42 0.07 95);
+  --wa-pastel-foreground: oklch(0.97 0.02 95);
+  --wa-beige: oklch(0.55 0.04 70);
+  --wa-beige-foreground: oklch(0.97 0.01 70);
+  --wa-beige-muted: oklch(0.88 0.015 70);
+  --wa-brown: oklch(0.48 0.07 55);
+  --wa-brown-foreground: oklch(0.99 0.005 55);
+  --wa-brown-muted: oklch(0.88 0.02 60);
+  --wa-gold: oklch(0.8 0.13 85);
+  --wa-silver: oklch(0.78 0.01 250);
+  --wa-bronze: oklch(0.7 0.1 55);
+  --enroll-whatsapp: oklch(0.72 0.15 152);
+  --enroll-whatsapp-foreground: oklch(0.14 0.03 152);
+  --enroll-whatsapp-hover: oklch(0.78 0.15 152);
+}
+
+.about-feature__action::before {
+  position: absolute;
+  right: 100%;
+  bottom: 0;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-bottom-right-radius: 2.5rem;
+  box-shadow: 1rem 1rem 0 1rem var(--about-button);
+  content: "";
+}
+
+.courses-section {
+  background-color: var(--about-canvas);
+}
+
+.courses-scroll {
+  scrollbar-color: var(--courses-link) transparent;
+  scrollbar-width: thin;
+}
+
+.courses-scroll::-webkit-scrollbar {
+  height: 0.45rem;
+}
+
+.courses-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.courses-scroll::-webkit-scrollbar-thumb {
+  background: var(--courses-link);
+  border-radius: 999px;
+}
+
+.course-hero {
+  background-color: var(--course-hero);
+  background-image:
+    linear-gradient(115deg, transparent 35%, oklch(1 0 0 / 0.05)),
+    radial-gradient(circle at 80% 30%, oklch(0.8 0.08 170 / 0.18), transparent 28%);
+}
+
+.course-panel {
+  box-shadow: 0 1.25rem 3.5rem oklch(0.26 0.05 195 / 0.08);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .course-panel {
+    animation: course-rise 600ms ease-out both;
+  }
+}
+
+@keyframes course-rise {
+  from {
+    opacity: 0;
+    transform: translateY(1rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.reviews-section {
+  background-color: var(--about-canvas);
+}
+
+.reviews-marquee {
+  overflow-x: auto;
+  scrollbar-width: none;
+  -webkit-mask-image: linear-gradient(to right, transparent, black 4rem, black calc(100% - 4rem), transparent);
+  mask-image: linear-gradient(to right, transparent, black 4rem, black calc(100% - 4rem), transparent);
+}
+
+.reviews-marquee::-webkit-scrollbar {
+  display: none;
+}
+
+.reviews-track {
+  display: flex;
+  gap: 1.25rem;
+  width: max-content;
+  padding: 0.5rem 1rem;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .reviews-track {
+    animation: reviews-scroll 70s linear infinite;
+  }
+
+  .reviews-marquee:hover .reviews-track,
+  .reviews-marquee:focus-within .reviews-track {
+    animation-play-state: paused;
+  }
+}
+
+@keyframes reviews-scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(calc(-50% - 0.625rem));
+  }
+}
+
+.why-yoga-section {
+  position: relative;
+  background-color: var(--why-yoga-section);
+  background-image:
+    radial-gradient(ellipse 55% 50% at 18% 25%, var(--why-yoga-section-a) 0%, transparent 70%),
+    radial-gradient(ellipse 45% 55% at 82% 72%, var(--why-yoga-section-b) 0%, transparent 65%),
+    radial-gradient(ellipse 35% 35% at 55% 48%, var(--why-yoga-section-a) 0%, transparent 65%);
+}
+
+.why-yoga-section::before {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse 80% 60% at 50% 40%, oklch(1 0 0 / 0.22) 0%, transparent 65%);
+  content: "";
+  pointer-events: none;
+}
+
+.why-yoga-section > * {
+  position: relative;
+  z-index: 1;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .about-feature,
+  .why-yoga-section,
+  .why-us-section {
+    animation: about-reveal 700ms ease-out both;
+  }
+}
+
+@keyframes about-reveal {
+  from {
+    opacity: 0;
+    transform: translateY(1.25rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 @layer base {
@@ -140,5 +517,57 @@
   body {
     background-color: var(--color-background);
     color: var(--color-foreground);
+  }
+}
+
+.wa-mosaic {
+  background-color: var(--wa-mosaic);
+  background-image:
+    linear-gradient(135deg, oklch(1 0 0 / 0.10) 25%, transparent 25%),
+    linear-gradient(225deg, oklch(1 0 0 / 0.10) 25%, transparent 25%),
+    linear-gradient(45deg, oklch(0 0 0 / 0.06) 25%, transparent 25%),
+    linear-gradient(315deg, oklch(0 0 0 / 0.06) 25%, transparent 25%);
+  background-position:
+    22px 0,
+    22px 0,
+    0 0,
+    0 0;
+  background-size: 44px 44px;
+}
+
+.wa-scroll {
+  scrollbar-width: thin;
+  scrollbar-color: var(--wa-teal) transparent;
+}
+
+.wa-scroll::-webkit-scrollbar {
+  height: 0.45rem;
+}
+
+.wa-scroll::-webkit-scrollbar-thumb {
+  background: var(--wa-teal);
+  border-radius: 999px;
+}
+
+.pop-notice {
+  transform-origin: bottom left;
+  animation: pop-notice 1.2s cubic-bezier(0.34, 1.56, 0.64, 1) 1s both;
+}
+
+@keyframes pop-notice {
+  0% {
+    opacity: 0;
+    transform: scale(0.4) translateY(0.75rem) rotate(-8deg);
+  }
+  60% {
+    opacity: 1;
+    transform: scale(1.08) translateY(-0.25rem) rotate(2deg);
+  }
+  80% {
+    transform: scale(0.96) translateY(0) rotate(-1deg);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) translateY(0) rotate(0deg);
   }
 }
