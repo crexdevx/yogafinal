@@ -1,0 +1,4 @@
+- [ ] Refresh the shared navigation
+- [ ] Add a consistent sitewide footer
+- [ ] Speed up page transitions with intent preloading
+- [ ] Verify the preview and diagnostics
