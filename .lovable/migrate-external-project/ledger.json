@@ -1,0 +1,15 @@
+{
+  "source": "github",
+  "source_url": "https://github.com/crexdevx/project-builder-buddy-be9c49d9",
+  "capabilities": [
+    { "capability": "code", "source": "github repo", "outcome": "preserved", "status": "verified", "next_action": null },
+    { "capability": "routes", "source": "src/routes (/, /index/, /about, /programs, /gallery, /contact, /enroll)", "outcome": "preserved", "status": "verified", "next_action": null },
+    { "capability": "assets", "source": "src/assets + public media (images, hero video)", "outcome": "preserved", "status": "verified", "next_action": null },
+    { "capability": "schema", "source": "none detected (static site)", "outcome": "not-applicable", "status": "verified", "next_action": null },
+    { "capability": "records", "source": "none detected", "outcome": "not-applicable", "status": "verified", "next_action": null },
+    { "capability": "auth", "source": "none detected", "outcome": "not-applicable", "status": "verified", "next_action": null },
+    { "capability": "secrets", "source": "none detected", "outcome": "not-applicable", "status": "verified", "next_action": null },
+    { "capability": "public-endpoints", "source": "none detected", "outcome": "not-applicable", "status": "verified", "next_action": null },
+    { "capability": "schedules", "source": "none detected", "outcome": "not-applicable", "status": "verified", "next_action": null }
+  ]
+}
