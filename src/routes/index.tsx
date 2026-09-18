@@ -199,7 +199,36 @@ export function Index() {
           <source src={heroWebm} type="video/webm" />
           <source src={heroMp4} type="video/mp4" />
         </video>
+        <div className="absolute inset-0 bg-gradient-to-r from-course-footer/80 via-course-footer/30 to-transparent" />
         <FloatingHeader />
+
+        <div className="absolute inset-x-0 top-0 z-20 mx-auto flex h-full w-full max-w-7xl items-center px-5 pb-12 pt-24 sm:px-8 sm:pb-16 sm:pt-28 lg:px-12">
+          <div className="max-w-[19rem] text-left sm:max-w-xl lg:max-w-2xl">
+            <div className="mb-4 flex items-center gap-3 sm:mb-5">
+              <span className="h-0.5 w-10 bg-course-sun sm:w-14" />
+              <p className="text-[0.65rem] font-bold uppercase tracking-[0.2em] text-course-sun sm:text-xs">
+                Quality training for healthy living
+              </p>
+            </div>
+            <h1 className="font-serif text-[2.6rem] leading-[0.98] text-course-hero-foreground sm:text-6xl lg:text-7xl">
+              North East Yoga
+              <span className="block text-course-sun">&amp; Meditation Centre</span>
+            </h1>
+            <p className="mt-5 max-w-md text-sm leading-6 text-course-hero-foreground/90 sm:mt-6 sm:text-base sm:leading-7">
+              Authentic yoga and meditation guidance for strength, balance, and a healthier way of living.
+            </p>
+            <Button
+              asChild
+              size="lg"
+              className="group mt-6 h-auto rounded-full border border-course-sun/70 bg-course-sun/25 px-6 py-3.5 text-sm font-bold text-course-hero-foreground shadow-none backdrop-blur-sm transition-all duration-300 hover:-translate-y-0.5 hover:bg-course-sun/40 sm:mt-8 sm:px-8 sm:py-4 sm:text-base"
+            >
+              <Link to="/enroll" search={{ course: undefined }}>
+                Book Your Class
+                <ArrowUpRight aria-hidden="true" className="size-5 transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
+              </Link>
+            </Button>
+          </div>
+        </div>
 
         <svg
           aria-hidden="true"
